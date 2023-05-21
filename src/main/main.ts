@@ -104,7 +104,7 @@ const MAIN_WINDOW_OPTIONS: BrowserWindowConstructorOptions = {
     nodeIntegration: true,
     contextIsolation: false,
   },
-  backgroundColor: '#000000',
+  // backgroundColor: '#000000',
   roundedCorners: false,
 };
 

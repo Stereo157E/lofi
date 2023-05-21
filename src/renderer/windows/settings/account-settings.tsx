@@ -2,7 +2,7 @@ import { capitalize } from 'lodash';
 import React, { FunctionComponent, useCallback } from 'react';
 import styled from 'styled-components';
 
-import { LoginButton } from '../../components/login-button';
+import { LoginButton } from '../../components/login-button/LoginButton';
 import { FieldSet, Legend, Row } from '../../components/styled/form.styled';
 import { useCurrentlyPlaying } from '../../contexts/currently-playing.context';
 import { useHover } from '../../hooks/use-hover';

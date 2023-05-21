@@ -12,7 +12,13 @@
     "noUnusedLocals": true,
     "sourceMap": true,
     "target": "ES2021",
-    "types": ["node", "lodash", "electron"]
+    "types": [
+      "node",
+      "lodash",
+      "electron"
+    ]
   },
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }

@@ -3,7 +3,7 @@ import './style.css';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 
-import { App } from './app';
+import { App } from './app/App';
 import { CurrentlyPlayingProvider } from './contexts/currently-playing.context';
 import { SettingsProvider } from './contexts/settings.context';
 

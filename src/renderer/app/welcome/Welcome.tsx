@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
 import { VisualizationType } from '../../../models/settings';
-import { LoginButton } from '../../components/login-button';
+import { LoginButton } from '../../components/login-button/LoginButton';
 import wavesImage from '../../static/waves.gif';
 import Menu from '../cover/menu';
 
@@ -46,6 +46,7 @@ const WelcomeControls = styled.div`
   display: flex;
   justify-content: center;
   z-index: 2;
+  border-radius: 5%;
 `;
 
 export const Welcome: FunctionComponent = () => (

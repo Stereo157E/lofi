@@ -1,7 +1,7 @@
 import React, { FunctionComponent, ReactNode } from 'react';
 import styled from 'styled-components';
 
-import { TitleBar } from '../components/title-bar';
+import { TitleBar } from '../components/title-bar/TitleBar';
 
 export const WindowHeaderContent = styled.div`
   display: flex;

@@ -8,7 +8,7 @@ import { AuthData, refreshAccessToken, setTokenRetrievedCallback } from '../../m
 import { DEFAULT_SETTINGS, Settings, VisualizationType } from '../../models/settings';
 import { visualizations } from '../../visualizations';
 import { AccountType, SpotifyApiInstance } from '../api/spotify-api';
-import { WindowPortal } from '../components/window-portal';
+import { WindowPortal } from '../components/window-portal/WindowPortal';
 import { useCurrentlyPlaying } from '../contexts/currently-playing.context';
 import { useSettings } from '../contexts/settings.context';
 import { DisplayData } from '../models';
@@ -17,8 +17,8 @@ import { SettingsActionType } from '../reducers/settings.reducer';
 import { About } from '../windows/about';
 import { FullscreenVisualizer } from '../windows/fullscreen-visualizer';
 import { SettingsWindow } from '../windows/settings';
-import { Cover } from './cover';
-import { Welcome } from './welcome';
+import { Cover } from './cover/Cover';
+import { Welcome } from './welcome/Welcome';
 
 const LEFT_MOUSE_BUTTON = 0;
 
